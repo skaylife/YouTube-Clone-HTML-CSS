@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Подключение стилей -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Подключение шрифтов гугл -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>YouTube Clone 2021</title>
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <a target="_blank" href="https://www.youtube.com/">
+      <img src="logo.png" alt="YouTube Logo" class="youtube-logo">
+    </a>
+
+    <!-- Поиск -->
+    <form class="search-bar">
+      <input class="search-input" type="search" placeholder="Поиск" aria-label="Поиск">
+      <button type="submit" class="search-btn">
+        <img src="magnify.svg" alt="">
+      </button>
+    </form>
+    <div class="menu-icons">
+      <a href="">
+        <img src="video-plus.svg" alt="Загрузка видео">
+      </a>
+      <a href="">
+        <img src="apps.svg" alt="Приложения">
+      </a>
+      <a href="">
+        <img src="bell.svg" alt="Оповещения">
+      </a>
+      <a href="">
+        <img class="menu-channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="Твой Канал">
+      </a>
+    </div>
+  </header>
+
+
+
+  <div class="categories">
+    <section class="category-section">
+      <button class="category active">Все</button>
+      <button class="category" onclick="document.location='https://clck.ru/Tq4dP'">Skaylife final 21.03.2021</button>
+      <form action="https://github.com/skaylife/YouTube-Clone-HTML-CSS" target="_blank">
+        <button class="category">GitHub views code</button>
+      </form>
+      <button class="category">Только Css</button>
+      <button class="category">Только Html</button>
+
+
+
+    </section>
+  </div>
+  <!-- Секция с видео карточкой  -->
+  <div class="videos">
+
+    <!-- Первая секция -->
+    <section class="video-section">
+
+      <!-- Первая карточка в первой строчке -->
+
+      <!-- 1 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- Вторая карточка в той же строчке -->
+      
+      <!-- 2 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="video-container">
+      <!-- Ссылки на превю -->
+      <a class="thumbnail" href="#" data-duration="12:24">
+        <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+      </a>
+        <!-- Иконка с превью канала -->
+      <div class="video-bottom-section">
+        <a href="#">
+          <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+        </a>
+        <!-- Div с более подробной информацией  -->
+        <div class="video-details">
+          <a href="#" class="video-title">Название видео</a>
+          <a href="#" class="video-channel-name">Название канала</a>
+          <div class="video-metadata">
+            <span>12тысяч просмотров</span>
+              &#9679;
+            <span>Загружено одну неделю назад</span>
+          </div>
+        </div>
+      </div>
+      </article>    
+
+      <!-- 7 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article> 
+
+      <!-- 8 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article> 
+    </section>
+
+    <!-- Специальная секция -->
+    <section class="video-section">
+
+      <h2 class="video-section-title">
+        Специальная секция
+        <button class="video-section-title-close">&times;</button>
+      </h2>
+      <!-- Первая карточка в первой строчке -->
+
+      <!-- 1 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- Вторая карточка в той же строчке -->
+      
+      <!-- 2 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+    
+    <!-- Третья секция -->
+    <section class="video-section">
+
+      <!-- Первая карточка в первой строчке -->
+
+      <!-- 1 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- Вторая карточка в той же строчке -->
+      
+      <!-- 2 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 3 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 4 -->
+      <article class="video-container">
+          <!-- Ссылки на превю -->
+          <a class="thumbnail" href="#" data-duration="12:24">
+            <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+          </a>
+            <!-- Иконка с превью канала -->
+          <div class="video-bottom-section">
+            <a href="#">
+              <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+            </a>
+            <!-- Div с более подробной информацией  -->
+            <div class="video-details">
+              <a href="#" class="video-title">Название видео</a>
+              <a href="#" class="video-channel-name">Название канала</a>
+              <div class="video-metadata">
+                <span>12тысяч просмотров</span>
+                  &#9679;
+                <span>Загружено одну неделю назад</span>
+              </div>
+            </div>
+          </div>
+      </article>
+
+      <!-- 5 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 6 -->
+      <article class="video-container">
+      <!-- Ссылки на превю -->
+      <a class="thumbnail" href="#" data-duration="12:24">
+        <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+      </a>
+        <!-- Иконка с превью канала -->
+      <div class="video-bottom-section">
+        <a href="#">
+          <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+        </a>
+        <!-- Div с более подробной информацией  -->
+        <div class="video-details">
+          <a href="#" class="video-title">Название видео</a>
+          <a href="#" class="video-channel-name">Название канала</a>
+          <div class="video-metadata">
+            <span>12тысяч просмотров</span>
+              &#9679;
+            <span>Загружено одну неделю назад</span>
+          </div>
+        </div>
+      </div>
+      </article>    
+
+      <!-- 7 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article> 
+
+      <!-- 8 -->
+      <article class="video-container">
+        <!-- Ссылки на превю -->
+        <a class="thumbnail" href="#" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" alt="">
+        </a>
+          <!-- Иконка с превью канала -->
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" alt="">
+          </a>
+          <!-- Div с более подробной информацией  -->
+          <div class="video-details">
+            <a href="#" class="video-title">Название видео</a>
+            <a href="#" class="video-channel-name">Название канала</a>
+            <div class="video-metadata">
+              <span>12тысяч просмотров</span>
+                &#9679;
+              <span>Загружено одну неделю назад</span>
+            </div>
+          </div>
+        </div>
+      </article> 
+    </section>
+  </div>
+  
+</body>
+</html>
+
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+    <section>
+      <article class="video-container">
+        <a href="#" class="thumbnail" data-duration="12:24">
+          <img class="thumbnail-image" src="http://unsplash.it/250/150?gravity=center" />
+        </a>
+        <div class="video-bottom-section">
+          <a href="#">
+            <img class="channel-icon" src="http://unsplash.it/36/36?gravity=center" />
+          </a>
+          <div class="video-details">
+            <a href="#" class="video-title">Video Title</a>
+            <a href="#" class="video-channel-name">Channel Name</a>
+            <div class="video-metadata">
+              <span>12K views</span>
+              •
+              <span>1 week ago</span>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </div>
+</body>
+</html> -->
